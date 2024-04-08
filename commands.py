@@ -1,7 +1,9 @@
-"""Adding tasks"""
+"""Adding tasks -- users add new tasks to the to-do list"""
 
-"""Deleting tasks"""
+"""Deleting tasks -- users delete tasks from the to-do list"""
 
-"""Marking tasks as completed"""
+"""Marking tasks as completed -- users complete tasks and cross them off"""
 
-"""Viewing tasks"""
+"""Viewing tasks -- viewing area for tasks"""
+
+"""Editing tasks -- users edit existing tasks"""
