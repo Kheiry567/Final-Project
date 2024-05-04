@@ -45,3 +45,8 @@ def view_tasks(self):
             print(str(number) + ". " + task["tasks"] + " [" + status + "]")
 
 """Editing tasks -- users edit existing tasks"""
+def edit_tasks(self, task_number, new_task):
+    if task_number in self.tasks:
+        self.tasks[task_number]["tasks"] = new_task
+    else:
+        print("Task not found!")
