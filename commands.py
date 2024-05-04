@@ -42,7 +42,6 @@ def view_tasks(self):
                 status = "Complete"
             else:
                 status = "Incomplete"
-            #print(f"{number}. {task["tasks"]} [{status}]")
             print(str(number) + ". " + task["tasks"] + " [" + status + "]")
 
 """Editing tasks -- users edit existing tasks"""
